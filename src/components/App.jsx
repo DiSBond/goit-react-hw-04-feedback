@@ -4,6 +4,8 @@ import Statistics from './FeedBack/statistics/Statistics';
 import Section from './FeedBack/section/Section';
 import Notification from './FeedBack/notification/Notification';
 
+// fix
+
 export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
